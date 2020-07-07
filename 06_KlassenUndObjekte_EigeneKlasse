@@ -1,0 +1,17 @@
+//eigene Klasse für Mau-Mau
+
+class PlCards{
+  String farbe;
+  String wert;
+  
+  void zeigeKarte(){
+    print(this.farbe + " " + this.wert);
+  }
+}
+
+main(){
+  PlCards kreuzAss = PlCards();
+  kreuzAss.farbe = "Kreuz";
+  kreuzAss.wert = "Ass";
+  kreuzAss.zeigeKarte();
+}
