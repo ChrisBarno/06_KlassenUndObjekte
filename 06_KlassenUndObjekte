@@ -1,4 +1,4 @@
-class essen{
+class Essen{
   String geschmack;
   int menge;
   
@@ -9,11 +9,11 @@ class essen{
 }
 
 main(){
-  essen kiwi = essen();
+  Essen kiwi = Essen();
   kiwi.geschmack = "köstlich";
   kiwi.menge = 100000;
   kiwi.zeigeEigenschaften();
-  essen banane = essen();
+  Essen banane = Essen();
   banane.geschmack = "fruchtig";
   banane.menge = 0;
   banane.zeigeEigenschaften();
