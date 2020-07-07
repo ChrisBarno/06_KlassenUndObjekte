@@ -1,0 +1,20 @@
+class essen{
+  String geschmack;
+  int menge;
+  
+  void zeigeEigenschaften(){
+    print(this.geschmack);
+    print(this.menge);
+  }
+}
+
+main(){
+  essen kiwi = essen();
+  kiwi.geschmack = "köstlich";
+  kiwi.menge = 100000;
+  kiwi.zeigeEigenschaften();
+  essen banane = essen();
+  banane.geschmack = "fruchtig";
+  banane.menge = 0;
+  banane.zeigeEigenschaften();
+}
